@@ -1,0 +1,234 @@
+
+body {
+    background: var(--primary-white-color);
+    color: var(--secondary-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    /* background-color: rgb(243, 243, 187); */
+    padding: 0;
+
+}
+.page-header {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+.position> .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+    }
+.position .button:focus,
+.position .button:hover {
+    background: var(--accent-color);
+    color: var(--primary-white-color);
+    border: 1px solid var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin-top: 106px;
+    margin-bottom: 46px;
+
+}
+
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)),
+        url(../img/Header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px; max-width: 1600px;
+
+}
+
+/* <!-- zanyattya --> */
+
+.operation {
+    width: 270px;
+    height: 120px;
+    background-color: var(--third-bg-color);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.position .process,
+.team .social {
+    margin: 0px;
+    padding-left: 0px ;
+}
+.klienty .item+ .item,
+.team .item +.item,
+.decision .item + .item,
+.process .item +.item,
+.klienty .item+.item {
+
+    margin-left: 30px;
+
+}
+.process h3,
+.process p {
+    text-align: left;
+
+}
+.process h3 {
+    margin: 0px 0px 10px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+}
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.list .size {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.border {
+    border-bottom: 1px solid #ECECEC;
+}
+
+/* <!-- Riwennya --> */
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.decision {
+    margin-top: 50px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.decision img {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.decision .item {
+    position: relative;
+
+
+}
+.decision h3 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+.item .shadow {
+    display: block;
+    text-align: center;
+
+
+    white-space: nowrap;;
+}
+.shadow {
+    color: var(--primary-white-color);
+    background: rgba(47, 48, 58, 0.8);
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 370px; height: 70px;
+    padding: 27px;
+}
+
+/* <!-- Наша команда --> */
+
+.team {
+
+    background-color: var(--third-bg-color);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.team .list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+.team .item {
+    background-color: var(--primary-white-color);
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.team p {
+    text-align: center;
+    margin-bottom: 28px;
+}
+.team img {
+    margin-bottom: 30px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.other {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.team .social {
+    margin: 0px 32px 24px;
+}
+.social .point +.point{
+    margin-left: 10px;
+}
+.team .point {
+   --color3: var(--first-bg-color);
+
+}
+.team .point :hover {
+    --color3: var(--primary-white-color);
+    background: var(--accent-color);
+}
+
+    /* <!-- klienty --> */
+
+.customers .list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    justify-content: space-between;
+}
+
+.customers .item {
+    width: calc((100% - 150px) / 6);
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.customers a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.customers .item:hover {
+    border: 1px solid var(--accent-color);
+    --color3 : var(--accent-color);
+}
