@@ -104,7 +104,6 @@ ul {
 }
 .site-nav {
     display: flex;
-    align-items: center;
 }
 .site-nav .item+.item{
     margin-left: 50px;
