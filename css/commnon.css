@@ -32,7 +32,6 @@ img {
 
 }
 svg {
-    margin: auto;
     border: none;
     transition: var(--transition-timing-function) ;
 }
