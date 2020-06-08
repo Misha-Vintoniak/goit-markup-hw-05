@@ -34,6 +34,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero {
+    display: block;
     background-image: linear-gradient(rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)),
         url(../img/Header.jpg);
     background-size: cover;
@@ -173,8 +174,15 @@ h2 {
     text-align: center;
     margin-bottom: 28px;
 }
-.team img {
+.team .member {
+    display: block;
     margin-bottom: 30px;
+    transform: perspective(250px), rotateY(180deg);
+    transition: transform 1500ms cubic-bezier(.17,.76,.75,.18);
+}
+.team .item:hover .member {
+    transform: perspective(200px) rotateY(360deg);
+    transition: transform 1500ms cubic-bezier(.17,.76,.75,.18);
 }
 h4 {
     font-weight: 500;
